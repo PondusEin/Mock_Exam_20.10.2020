@@ -1,10 +1,18 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "task_1.h"
-#include "task_2.h"
-#include "task_3.h"
-#include "task_4.h"
-#include "Login.h"
 
-int task;
+
+void password();
+void task1();
+void task2();
+void task3();
+void task4();
+
+class Information
+{
+public:
+
+	char initial;
+	int randomvalue;
+};

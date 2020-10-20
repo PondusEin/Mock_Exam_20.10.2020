@@ -1,4 +1,3 @@
-#pragma once
 #include <conio.h>
 #include <iostream>
 
@@ -7,7 +6,7 @@ const char WIDTH = 3, HEIGHT = 3;
 unsigned char player = '*';
 int posX = 0, posY = 0;
 char input;
-int playermovements=0;
+int playermovements = 0;
 int attempts = 0;
 
 signed char board[WIDTH][HEIGHT] = {
@@ -21,7 +20,7 @@ void playerAction()
 
 	long long prevPosX = posX;
 	long long prevPosY = posY;
-	
+
 	input = _getch();
 	switch (input)
 	{
@@ -55,7 +54,7 @@ void password() {
 	system("cls");
 	while (true)
 	{
-		
+
 		std::cout << "Move your player using WASD." << std::endl;
 		std::cout << std::endl;
 
@@ -99,6 +98,4 @@ void password() {
 			break;
 		}
 	}
-		
-
 }

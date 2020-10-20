@@ -139,15 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Login.cpp" />
     <ClCompile Include="Mock_Exam_20.10.2020.cpp" />
+    <ClCompile Include="task_1.cpp" />
+    <ClCompile Include="task_2.cpp" />
+    <ClCompile Include="task_3.cpp" />
+    <ClCompile Include="task_4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Login.h" />
     <ClInclude Include="MainMenu.h" />
-    <ClInclude Include="task_1.h" />
-    <ClInclude Include="task_2.h" />
-    <ClInclude Include="task_3.h" />
-    <ClInclude Include="task_4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

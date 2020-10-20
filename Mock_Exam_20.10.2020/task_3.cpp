@@ -1,4 +1,6 @@
-#pragma once
+#include <iostream>
+#include <string>
+#include <conio.h>
 
 const char WIDTHS = 10, HEIGHTS = 10;
 unsigned char players = 'E';
@@ -69,10 +71,10 @@ void task3() {
 			for (int x = 0; x < WIDTHS; x++) {
 
 				std::cout << boards[y][x];
-				
+
 			}
 		}
-		
+
 		playerActions();
 		if (boards[posiX][posiY] != ' ')
 		{
