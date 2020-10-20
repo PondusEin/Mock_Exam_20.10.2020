@@ -86,21 +86,13 @@ void diceRoll(std::vector<int>& array) {
 	}
 }
 
-void keptDice(std::vector<int>& array) {
-	diceOnes(total);
-	diceTwos(total);
-	diceThrees(total);
-	diceFours(total);
-	diceFives(total);
-	diceSixes(total);
-}
 void task1() {
 	system("cls");
 	std::vector <int> total(2000);
 
 	diceRoll(total);
 
-	std::cout << "\nNumber of 1's:   " << diceOnes(total) << std::endl;
+	std::cout << "\n\nNumber of 1's:   " << diceOnes(total) << std::endl;
 	std::cout << "\nNumber of 2's:   " << diceTwos(total) << std::endl;
 	std::cout << "\nNumber of 3's:   " << diceThrees(total) << std::endl;
 	std::cout << "\nNumber of 4's:   " << diceFours(total) << std::endl;
